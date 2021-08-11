@@ -15,18 +15,37 @@
 }
 .masthead_date{
     grid-area: date;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid rgb(93, 93, 93);
 }
 .masthead_actions{
     grid-area: actions;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 .masthead_technologies{
     grid-area: technologies;
+    text-align: center;
 }
 .masthead_logo{
     grid-area: logo;
+    text-align: center;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(93, 93, 93);
 }
 .masthead_paper{
     grid-area: paper;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgb(93, 93, 93);
 }
 .search-menu-button{
     font-size: 11px;
@@ -35,4 +54,11 @@
 }
 .search-menu-button:hover{
     background-color: lightgrey;
+}
+
+.little_text {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(93, 93, 93);
+    margin: 5px;
 }
