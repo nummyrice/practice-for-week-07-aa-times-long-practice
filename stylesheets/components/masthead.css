@@ -2,4 +2,37 @@
 .masthead {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "menu-and-search . actions"
+    ". technologies ."
+    "date logo paper"
+}
+
+.masthead_menu-and-search{
+    grid-area: menu-and-search;
+    padding-left: 20px;
+}
+.masthead_date{
+    grid-area: date;
+}
+.masthead_actions{
+    grid-area: actions;
+}
+.masthead_technologies{
+    grid-area: technologies;
+}
+.masthead_logo{
+    grid-area: logo;
+}
+.masthead_paper{
+    grid-area: paper;
+}
+.search-menu-button{
+    font-size: 11px;
+    padding: 7px 9px;
+    display: inline-block;
+}
+.search-menu-button:hover{
+    background-color: lightgrey;
 }
